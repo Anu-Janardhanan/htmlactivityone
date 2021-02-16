@@ -10,7 +10,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
     color: #666;
-    background-color: #ddd;
 	font-size: 16px;
     line-height: 1.6em;
 }
@@ -523,6 +522,20 @@ p.lead-footer {
 
 .map-section{
 	background-color: white;
+}
+
+.form-row{
+	margin-bottom: 20px;
+}
+
+.modal-inner{
+	display: flex;
+}
+.modal-inner-one{
+	width: 30%;
+}
+.modal-inner-two{
+	width: 70%;
 }
 
 

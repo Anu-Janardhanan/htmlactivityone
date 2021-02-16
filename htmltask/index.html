@@ -38,9 +38,9 @@
 
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container-fluid">
-				<div class="navbar-header">
+				<div class="navbar-header" style="margin-left:-15px">
 
-					<img src="img/logo.png" alt="" width="150" height="40" style="padding-top: 10px;" />
+					<img src="img/logo.JPG" alt="" width="240" height="50" />
 
 				</div>
 				<ul class="nav navbar-nav navbar-header-link">
@@ -52,11 +52,109 @@
 					<li><a href="#">CONTACT</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">BOOK ONLINE</a></li>
+					<li><button type="button" style="height:50px" class="btn btn-warning" data-toggle="modal"
+							data-target="#exampleModal">BOOK ONLINE</button></li>
 
 				</ul>
 			</div>
 		</nav>
+
+
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content" style="color: beige;">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+
+					<div class="modal-body">
+						<div class="modal-inner">
+							<div class="modal-inner-one">
+
+							</div>
+
+							<div class="modal-inner-two">
+								<h5 class="modal-title" style="color: #eea236;" id="exampleModalLabel">Book an
+									Appointment</h5>
+
+
+								<form>
+									<div class="form-row ">
+										<div class=" form-group col-md-6">
+											<input type="text" class="form-control" placeholder="First name">
+										</div>
+										<div class=" form-group col-md-6">
+											<input type="text" class="form-control" placeholder="Last name">
+										</div>
+									</div>
+
+									<div class="form-row form-group">
+										<div class="form-group col-md-6">
+											<input type="text" class="form-control" placeholder="Email">
+										</div>
+										<div class="form-group col-md-6">
+											<input type="text" class="form-control" placeholder="Phone">
+										</div>
+									</div>
+
+									<label>select day (you can select multiple days)</label>
+
+									<div class="form-group">
+										<input type="checkbox" class="btn-check btn-light" id="btn-check"
+											autocomplete="off" />
+										<label class="btn btn-light" for="btn-check">Mon</label>
+
+										<input type="checkbox" class="btn-check btn-light" id="btn-check2"
+											autocomplete="off" />
+										<label class="btn btn-light" for="btn-check2">Tue</label>
+
+										<input type="checkbox" class="btn-check btn-light" id="btn-check3"
+											autocomplete="off" />
+										<label class="btn btn-light" for="btn-check3">Wed</label>
+
+										<input type="checkbox" class="btn-check btn-light" id="btn-check4"
+											autocomplete="off" />
+										<label class="btn btn-light" for="btn-check4">Thu</label>
+
+										<input type="checkbox" class="btn-check btn-light" id="btn-check5"
+											autocomplete="off" />
+										<label class="btn btn-light" for="btn-check5">Fri</label>
+
+										<input type="checkbox" class="btn-check btn-light" id="btn-check6"
+											autocomplete="off" />
+										<label class="btn btn-light" for="btn-check6">Sat</label>
+									</div>
+
+									<label>Select a time (You can Select multiple Time)</label>
+									<div>
+
+										<input type="checkbox" class="btn-check btn-light" id="btn-1check"
+											autocomplete="off" />
+										<label class="btn btn-light" for="btn-1check">Morning</label>
+
+										<input type="checkbox" class="btn-check btn-light" id="btn-2check2"
+											autocomplete="off" />
+										<label class="btn btn-light" for="btn-2check2">Afternoon</label>
+
+										<input type="checkbox" class="btn-check btn-light" id="btn-2check3"
+											autocomplete="off" />
+										<label class="btn btn-light" for="btn-2check3">Evening</label>
+
+									</div>
+									<div class="form-group">
+										<button type="submit"
+											style="margin-top:10px; color: white; width:100%; background-color:rgb(17, 16, 16);"
+											class="btn">Request an Appointment</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
 		<section id="carousel">
@@ -426,7 +524,7 @@
 		<div class="map-section">
 			<iframe
 				src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31356.05579867123!2d76.58837448652915!3d10.77242878660864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1612782305692!5m2!1sen!2sin"
-				width="1500" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+				width="1000" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
 				tabindex="0"></iframe>
 		</div>
 	</footer>
